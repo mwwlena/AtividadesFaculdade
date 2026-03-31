@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+
+int main () {
+
+    char n [25];
+    int c = 0;
+
+printf("Digite um nome:\n");
+    scanf("%s", n);
+ 
+    for (int i = 0; n[i] != '\0'; i++) {
+        c ++;
+                }
+
+printf("O nome tem %d letras", c);
+   
+
+return 0;
+}
