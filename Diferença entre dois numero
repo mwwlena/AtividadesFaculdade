@@ -18,10 +18,12 @@ int main () {
 
     if (n1 > n2) {
         sub = n1 - n2;
-        printf("A difereça entre os numero: %d\n", sub);
+        printf("O numero maior e: %d\n", n1);
+        printf("A diferenca entre os numero: %d\n", sub);
     }else if (n2 > n1){
          sub = n2 - n1;
-        printf("A difereça entre os numero: %d\n", sub);
+        printf("O numero maior e: %d\n", n2);
+        printf("A diferenca entre os numero: %d\n", sub);
     } else 
         printf("Os numeros sao iguais");
     
@@ -29,5 +31,6 @@ int main () {
 
 return 0;
 }
+
 
 
