@@ -1,0 +1,33 @@
+//Elabore um algoritmo que leia dois números inteiros e mostre o resultado da diferença do
+//maior valor pelo menor;
+
+#include <stdio.h>
+
+
+int main () {
+
+    int n1, n2;
+    int sub;
+
+
+        printf("Primeiro numero:\n");
+            scanf("%d", &n1);
+
+        printf("Segundo numero:\n");
+            scanf("%d", &n2);
+
+    if (n1 > n2) {
+        sub = n1 - n2;
+        printf("A difereça entre os numero: %d\n", sub);
+    }else if (n2 > n1){
+         sub = n2 - n1;
+        printf("A difereça entre os numero: %d\n", sub);
+    } else 
+        printf("Os numeros sao iguais");
+    
+
+
+return 0;
+}
+
+
