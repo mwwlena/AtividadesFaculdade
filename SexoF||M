@@ -1,1 +1,30 @@
+//Elabore um algoritmo que leia do teclado o sexo de uma pessoa. Se o sexo digitado for M ou
+//F, escrever na tela “Sexo válido!”. Caso contrário, informar “Sexo inválido!”;
 
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+
+int main () {
+
+        char a = '\0';
+        char continuar = 'S';
+
+do { 
+        printf("Informe o sexo do solicitante:\nSendo Feminino (F) e Masculino (M)\n");
+            scanf(" %c", &a);
+    
+if (a == 'F' || a == 'M') {
+        printf("Sexo Valido\n");
+                continuar = 'N';
+}else{
+        printf("Sexo Invalido\n");
+        printf("Deseja tentar novamente?\n S/N\n");
+            scanf(" %c", &continuar);
+                continuar = toupper(continuar);
+}
+   
+} while (continuar == 'S');
+    printf ("Programa encerrado\n");
+
+return 0; }
