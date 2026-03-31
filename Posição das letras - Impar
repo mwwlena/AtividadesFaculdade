@@ -17,3 +17,4 @@ printf("%c", n[i]);
 return 0;
 }
 
+//partindo de inicio do numero 1
