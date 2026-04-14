@@ -1,0 +1,10 @@
+//mostrar os codigos dos produtos
+//pedir qual é o codigo 
+//a quantidade de item
+//mostrar o valor do pedido 
+//o programa deve exibir 1 código por execução
+
+Cachorro quente 100 - 1,20
+Bauru simples - 101
+Bauru com ovo - 102
+Cheesburguer - 103
