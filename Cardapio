@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <string.h>
+enum Cardapio {
+    Cachorroq = 100,
+    BauruS = 101,
+    BauruO = 102,
+    Hamburguer = 103,
+    Cheesburguer = 104,
+    Refri = 105
+};
+int main()
+{
+int cod, quant;
+float valor;
+
+    printf("==TABELA==\n");
+    printf("100 - CACHORRO QUENTE\n");
+    printf("101 - BAURU SIMPLES\n");
+    printf("102 - BAURU COM OVO\n");
+    printf("103 - HAMBURGUER\n");
+    printf("104 - CHEESBURGUER\n");
+    printf("105 - REFRIGERANTE\n");
+
+    printf("\nInforme o Codigo do produto:");
+        scanf("%d", &cod);
+    printf("Informe a quantidade do produto:");
+        scanf("%d", &quant);
+
+
+switch (cod){
+case Cachorroq:
+    valor = quant * 1.20;
+    printf("Cachorro quente x%d = R$%.2f", quant, valor);
+    break;
+case BauruS:
+    valor = quant * 1.30;
+    printf("Bauru Simples x%d = R$%.2f", quant, valor);
+    break;
+case BauruO:
+    valor = quant * 1.50;
+    printf("Bauru com Ovo x%d = R$%.2f", quant, valor);
+    break;
+case Hamburguer:
+    valor = quant * 1.20;
+    printf("Hamburguer x%d = R$%.2f", quant, valor);
+    break;
+case Cheesburguer:
+    valor = quant * 1.30;
+    printf("Cheesburguer x%d = R$%.2f", quant, valor);
+    break;
+case Refri:
+    valor = quant * 1.00;
+    printf("Refrigerante x%d = R$%.2f", quant, valor);
+    break;
+};
+}
