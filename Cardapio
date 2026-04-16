@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-enum Cardapio {
+enum Cardapio { 
     Cachorroq = 100,
     BauruS = 101,
     BauruO = 102,
